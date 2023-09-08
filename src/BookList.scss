@@ -1,0 +1,22 @@
+.BookList {
+  ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 150px;
+    align-items: center;
+
+    img {
+      width: 100px;
+    }
+  }
+}
